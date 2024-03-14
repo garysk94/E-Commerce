@@ -1,0 +1,66 @@
+.navbar{
+    display: flex;
+    justify-content: space-around;
+    padding: 16px;
+    box-shadow: 0 1px 3px -2px black;
+}
+
+.nav-logo{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.nav-logo p {
+    color: rgb(214, 50, 8);
+    font-size: 40px;
+    font-weight: 650;
+}
+
+.nav-menu{
+    display: flex;
+    align-items: center;
+    gap: 40px;
+    font-size: 20px;
+    color: rgb(238, 163, 23);
+    list-style: none;
+}
+
+.nav-menu li{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    cursor: pointer;
+    gap: 2px;
+}
+
+.nav-menu hr{
+    border: none;
+    width: 80%;
+    height: 3px;
+    border-radius: 10pc;
+    background: rgb(214, 50, 8);
+}
+
+.nav-login-cart{
+    display: flex;
+    align-items: center;
+    gap: 40px;
+}
+
+.nav-login-cart button{
+    width: 80px;
+    height: 40px;
+    outline: none;
+    border-radius: 75px;
+    color:rgb(238, 163, 23);
+    font-size: 17px;
+    font-weight: 500;
+    background: rgb(214, 50, 8);
+    cursor: pointer;
+}
+
+.nav-login-cart button:active{
+    background: white;
+}
